@@ -2,8 +2,13 @@
 """
 Created on Tue Mar 15 11:40:53 2022
 
-@author: LeebanRoy
+@author: Leeban Roy
+install dependend module "pip install LabJackPython" for using accesing u3 and
+install LabJack driver files provided by manufacturer "https://labjack.com/support/software/installers/ud/archive/ud-setup-basic" for windows
+
+This Code will handle errors as well, for easy of display
 """
+
 import time
 import u3
 import sys
@@ -170,7 +175,7 @@ def Disconnect(Dev):
     
     
 
-""" ------------------- Test_code_Here -------------------------- """
+""" ------------------- Test_This_code_Here -------------------------- """
 
 # Device , Error = Connect()
 # print("------------------------------------------")
