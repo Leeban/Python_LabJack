@@ -1,7 +1,7 @@
 #Test Script for LabJack usage
 
 """
-install dependend module "pip install LabJackPython" for using accesing u3 and
+install dependend module "pip install LabJackPython" for using u3 and
 install LabJack driver files provided by manufacturer "https://labjack.com/support/software/installers/ud/archive/ud-setup-basic" for windows
 """
 
