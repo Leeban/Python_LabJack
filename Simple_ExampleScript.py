@@ -1,4 +1,9 @@
-#Test Script for LabJack run
+#Test Script for LabJack usage
+
+"""
+install dependend module "pip install LabJackPython" for using accesing u3 and
+install LabJack driver files provided by manufacturer "https://labjack.com/support/software/installers/ud/archive/ud-setup-basic" for windows
+"""
 
 import u3
 
@@ -9,7 +14,7 @@ d = u3.U3() # U3 class will try to automatically open the first found U3.
 #The calibration data will be used by functions that convert binary data to voltage/temperature and vice versa
 d.getCalibrationData()
 
-'''Set the first four (0-3) to analog (15 = 1111 binary) and the rest to digital'''
+'''Set the first four (0-3) ports to analog (15 = 1111 binary) and the rest to digital'''
 d.configIO(FIOAnalog = 15)
 
 """Read from AIN0 in one function"""
